@@ -23,7 +23,7 @@ const config = {
   url: 'https://workspace-sscudder.github.io',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/training-ten-minute/',
+  baseUrl: '/training-ten-minute/product-a/',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
