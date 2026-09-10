@@ -28,7 +28,7 @@ const config = {
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
   organizationName: 'workspace-sscudder', // Usually your GitHub org/user name.
-  projectName: 'product-a', // Usually your repo name.
+  projectName: 'training-ten-minute', // Usually your repo name.
 
   onBrokenLinks: 'throw',
 
