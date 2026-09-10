@@ -19,22 +19,23 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
  
-      - name: Setup Node.js
+      - name: Setup Node
         uses: actions/setup-node@v4
         with:
           node-version: 20
-          cache: npm
  
       - name: Install dependencies
+        working-directory: product-a
         run: npm ci
  
       - name: Build website
+        working-directory: my-docs
         run: npm run build
  
       - name: Upload build
         uses: actions/upload-pages-artifact@v4
         with:
-          path: build
+          path: my-docs/build
  
   deploy:
     name: Deploy to GitHub Pages
@@ -50,4 +51,3 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
- 
