@@ -15,7 +15,6 @@ function greet(name) {
 console.log(greet("world"));
 ```
 
-[Readme.md](../README.md)
 For more information, see Product [Page](https://www.bmc.com)
 
 ![](../Images/ABSTRACT-Spite_1280x1024.jpg)
