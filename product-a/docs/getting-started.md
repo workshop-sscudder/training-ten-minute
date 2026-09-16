@@ -7,11 +7,13 @@ Welcome to our ***product*** documentation. Lorem ipsum dolar sec nun. Lorem imp
 
 
 **Code block**
+```javascript
 function greet(name) {
   return `Hello, ${name}.`;
 }
  
 console.log(greet("world"));
+```
 
 [Readme.md](../README.md)
 For more information, see Product [Page](https://www.bmc.com)
